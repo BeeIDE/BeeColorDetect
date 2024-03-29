@@ -121,3 +121,9 @@ Blockly.defineBlocksWithJsonArray([
     "helpUrl": ""
   },
 ]);
+
+Blockly.Blocks['start_when_color_is_detected'].init_base = Blockly.Blocks['start_when_color_is_detected'].init;
+Blockly.Blocks['start_when_color_is_detected'].init = function () {
+  (Blockly.Blocks['start_when_color_is_detected'].init_base.bind(this))();
+  this.hat = "cap";
+};
