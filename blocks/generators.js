@@ -1,3 +1,8 @@
+function check_if_top_block_has_hat(block){
+   if (block.getRootBlock().hat === 'cap') return true;
+   else return false;
+}
+
 Blockly.Python['color_sensor'] = function (block) {
    if (!check_if_top_block_has_hat(block)) return ['', Blockly.Python.ORDER_NONE];
    Blockly.Python.definitions_['from_BeeBrain_import_bee'] = 'from BeeBrain import bee';
