@@ -5,7 +5,7 @@
     category: "Sensors",
     version: "1.0.0",
     icon: "/static/colorsensor.png", // Category icon
-    color: "#0f3058", // Category color (recommend some blocks color)
+    color: "#F5C402", // Category color (recommend some blocks color)
     blocks: [ // Blocks in Category
         "start_when_color_is_detected",
         {

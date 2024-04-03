@@ -14,7 +14,7 @@ Blockly.defineBlocksWithJsonArray([
         ]
       },
       {
-        "type": "field_dropdown",
+        "type": "field_grid_dropdown",
         "name": "port",
         "options": [
           ["PORT1", "PORT1"],
@@ -53,7 +53,7 @@ Blockly.defineBlocksWithJsonArray([
         ]
       },
       {
-        "type": "field_dropdown",
+        "type": "field_grid_dropdown",
         "name": "port",
         "options": [
           ["PORT1", "PORT1"],
@@ -83,8 +83,9 @@ Blockly.defineBlocksWithJsonArray([
     "message0": "%3 when %1 detect %2",
     "args0": [
       {
-        "type": "field_dropdown",
+        "type": "field_grid_dropdown",
         "name": "port",
+        "columns": 2,
         "options": [
           ["PORT1", "PORT1"],
           ["PORT2", "PORT2"],
