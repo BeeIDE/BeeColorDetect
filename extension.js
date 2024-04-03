@@ -1,5 +1,5 @@
 ({
-    name: "Color Module", // Category Name
+    name: "Colors", // Category Name
     description: "Color detect sensor",
     author: "BeeBlock",
     category: "Sensors",
